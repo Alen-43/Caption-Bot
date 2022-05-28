@@ -21,11 +21,11 @@ start_button=InlineKeyboardMarkup(
                   InlineKeyboardButton("🖋 Current Caption", callback_data = "status_data")
               ], 
               [
-                  InlineKeyboardButton("🤩 Help", callback_data = "help_data"), 
-                  InlineKeyboardButton("🛡 About", callback_data = "about_data")
+                  InlineKeyboardButton("ʜᴇʟᴘ", callback_data = "help_data"), 
+                  InlineKeyboardButton("🛡 ᴀʙᴏᴜᴛ", callback_data = "about_data")
               ], 
               [
-                  InlineKeyboardButton("🔐 Close", callback_data = "close_data")
+                  InlineKeyboardButton("❌️ᴄʟᴏsᴇ❌️", callback_data = "close_data")
               ] 
         ]
 )
@@ -38,8 +38,8 @@ help_button=InlineKeyboardMarkup(
                 InlineKeyboardButton("ABOUT MARKDOWN", callback_data = "markdown_data")
               ], 
               [
-                  InlineKeyboardButton("⏪ BACK", callback_data = "back_data"), 
-                  InlineKeyboardButton("🔐 CLOSE", callback_data = "close_data")
+                  InlineKeyboardButton("ʙᴀᴄᴋ↩️", callback_data = "back_data"), 
+                  InlineKeyboardButton("❌️ᴄʟᴏsᴇ❌️", callback_data = "close_data")
               ]
         ]
 ) 
@@ -49,11 +49,11 @@ help_button=InlineKeyboardMarkup(
 about_button=InlineKeyboardMarkup(
         [
               [
-                  InlineKeyboardButton("⬇️ BACK", callback_data = "back_data"), 
-                  InlineKeyboardButton("🔐 CLOSE", callback_data = "close_data")
+                  InlineKeyboardButton("ʙᴀᴄᴋ↩️", callback_data = "back_data"), 
+                  InlineKeyboardButton("❌️ᴄʟᴏsᴇ❌️", callback_data = "close_data")
               ], 
               [
-                  InlineKeyboardButton("🤩 Help", callback_data = "help_data")
+                  InlineKeyboardButton("ʜᴇʟᴘ", callback_data = "help_data")
               ]
         ]
 ) 
@@ -63,8 +63,8 @@ about_button=InlineKeyboardMarkup(
 source_button=InlineKeyboardMarkup(
         [
               [
-                  InlineKeyboardButton("⏪ Back", callback_data = "back_data"), 
-                  InlineKeyboardButton("🔐 Close", callback_data = "close_data")
+                  InlineKeyboardButton("ʙᴀᴄᴋ↩️", callback_data = "back_data"), 
+                  InlineKeyboardButton("❌️ᴄʟᴏsᴇ❌️", callback_data = "close_data")
               ]
         ]
 ) 
